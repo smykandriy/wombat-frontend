@@ -1,3 +1,96 @@
-.hello {
-    color: red;
+.header {
+  position: fixed;
+  height: 211px;
+  width: 1370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #282828;
+
+  .nav {
+    height: 92px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    justify-content: space-between;
+
+    .left-part {
+      display: flex;
+      align-items: center;
+      
+      .header-menu {
+        width: 53px;
+        height: 53px;
+        margin-right: 32px; 
+        margin-left: 30px;
+        background: none;
+      }
+
+      .logo {
+        width: 295px;
+        height: 92px;
+        cursor: pointer;
+      }
+    }
+
+    .avatar-logo {
+      width: 81px;
+      height: 81px;
+      background-color: #877059;
+      border-radius: 50%;
+    }
+  }
+
+  .tool-manager {
+    height: 92px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+    gap: 15px;
+
+    .search-wrapper {
+      width: 759px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      border-radius: 15px;
+      background: #FFFFFF;
+    }
+    .search {
+      background-color: none;
+      width: 100%;
+      padding-left: 10px;
+      margin-left: 5px;
+      border: none;
+    }
+
+    .search:focus {
+      outline: none;
+    }
+  }
 }
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-buttons button {
+  cursor: pointer;
+  width: 158px;
+  height: 50px;
+  border: 1px solid #FFFFFF;
+  filter: drop-shadow(1px 3px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  font-style: normal;
+  padding: 8px 16px;
+  border: none;
+  color: #000;
+  font-weight: 556;
+  font-size: 24px;
+  color: #EB8D6A;
+}
+ 

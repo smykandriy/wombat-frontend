@@ -1,0 +1,130 @@
+.add-modal {
+  position: absolute;
+  width: 950px;
+  height: 647px;
+  left: 50%;
+  top: 138px;
+  background: linear-gradient(312.51deg, #FF8F6F 19.14%, #FFBB76 98.65%);
+  border-radius: 30px;
+
+  transform: translate(-50%, 0);
+  font-family: '.SF Compact Rounded';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content-wrapper {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .title {
+      align-items: center;
+      font-style: normal;
+      font-weight: 556;
+      font-size: 36px;
+      letter-spacing: -0.02em;
+      margin: 72px 100px 55px 95px;
+  
+      color: rgba(37, 36, 34, 0.69);
+    }
+    
+    .buttons {
+      display: flex;
+      width: 453px;
+  
+      button {
+        cursor: pointer;
+        width: 158px;
+        height: 70px;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(1px 3px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 30px;
+        font-style: normal;
+        font-weight: 556;
+        font-size: 24px;
+        color: #EB8D6A;
+      }
+  
+      button:first-child {
+        background: transparent;
+        color: #FFFFFF;
+        margin-right: 28px;
+      }
+    }
+  
+    .back {
+      position: fixed;
+      cursor: pointer;
+      top: 44px;
+      left: 41px;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 119px;
+    }
+    
+    .input-wrapper {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      margin-bottom: 28px;
+      width: 48%;
+      width: calc(50% - 105px / 2);
+
+          &:first-child {
+              margin-right: 10px;
+          }
+      
+          &:last-child {
+              margin-left: 10px;
+          }
+
+      label {
+        width: 325px;
+        height: 40px;
+        left: 340px;
+        top: 210px;
+          
+        font-size: 20px;
+        line-height: 43px;
+        letter-spacing: -0.02em;
+
+        font-family: '.SF Compact Rounded';
+        font-style: normal;
+        font-weight: 556;
+        padding-left: 16px;
+        padding-bottom: 4px;
+
+        color: rgba(37, 36, 34, 0.8);
+      }
+
+      input {
+          width: 280px;
+          height: 52px;
+          background: #FFFFFF;
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 8px;
+          border: 0.5px solid rgba(0, 0, 0, 0.7);
+          padding-left: 24px;
+          font-size: 24px;
+      }
+    }
+  }
+
+@font-face {  font-family: '.SF Compact Rounded';
+  src: url('../../fonts/.SF Compact Rounded.ttf') format('truetype');}
+body {
+  font-family: '.SF Compact Rounded', sans-serif;}

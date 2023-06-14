@@ -1,0 +1,38 @@
+.add-modal {
+    position: absolute;
+    width: 682px;
+    height: 267px;
+    left: 50%;
+    top: 248px;
+    background: linear-gradient(299.51deg, #1F1F1F 0.84%, #282828 100%);
+    border-radius: 13px;
+    transform: translate(-50%, 0);
+    font-family: '.SF Compact Rounded';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .buttons {
+        display: flex;
+        width: 453px;
+    
+        button {
+          cursor: pointer;
+          width: 190px;
+          height: 70px;
+          border: 1px solid #FFFFFF;
+          filter: drop-shadow(1px 3px 4px rgba(0, 0, 0, 0.25));
+          border-radius: 30px;
+          font-style: normal;
+          font-weight: 556;
+          font-size: 24px;
+          color: #EB8D6A;
+        }
+    
+        button:first-child {
+          background: transparent;
+          color: #FFFFFF;
+          margin-right: 70px;
+        }
+      }
+    }
