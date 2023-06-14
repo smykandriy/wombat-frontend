@@ -1,0 +1,94 @@
+.filter-modal {
+    position: absolute;
+    height: 683px;
+    width: 820px;
+    background: linear-gradient(327.3deg, #FF8F6F 7.06%, #FF8F6F 7.07%, #FFBB76 90.57%);
+    border-radius: 30px;
+    top: 94px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: '.SF Compact Rounded';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .content-wrapper {
+      width: 576px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .title {
+        font-style: normal;
+        font-weight: 556;
+        font-size: 36px;
+        letter-spacing: -0.02em;
+        margin-bottom: 16px;
+        color: rgba(37, 36, 34, 0.69);
+      }
+  
+      .input-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-bottom: 28px;
+        width: 100%;
+  
+        label {
+          font-family: '.SF Compact Rounded';
+          font-style: normal;
+          font-weight: 556;
+          font-size: 24px;
+          padding-left: 16px;
+          padding-bottom: 4px;
+          color: rgba(37, 36, 34, 0.8);
+        }
+  
+        input {
+          height: 46px;
+          border: 0.5px solid rgba(0, 0, 0, 0.7);
+          box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 30px;
+          padding-left: 16px;
+          font-size: 24px;
+        }
+      }
+    }
+  
+    .filter-buttons {
+      display: flex;
+      margin-top: 10px;
+      width: 453px;
+      justify-content: space-between;
+  
+      button {
+        width: 207px;
+        height: 70px;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(1px 3px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 30px;
+        font-style: normal;
+        font-weight: 556;
+        font-size: 24px;
+      }
+  
+      button:first-child {
+        background: transparent;
+        color: #FFFFFF;
+      }
+    }
+  
+    .back {
+      position: fixed;
+      cursor: pointer;
+      top: 44px;
+      left: 41px;
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  @font-face {  font-family: '.SF Compact Rounded';
+    src: url('../../fonts/.SF Compact Rounded.ttf') format('truetype');}
+  body {
+    font-family: '.SF Compact Rounded', sans-serif;}

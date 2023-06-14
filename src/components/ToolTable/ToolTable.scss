@@ -1,0 +1,91 @@
+
+.tool-list-table {
+    padding-top: 224px;
+    width: 1369px;
+  
+    .tool-list-header {
+      display: flex;
+      align-items: center;
+      background-color: #FFFFFF;
+      border-radius: 13px;
+      margin-bottom: 10px;
+  
+      .tool-list-header-cell {
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .name {
+        width: 215px;
+        border-right: 1px solid black;
+      }
+      .id {
+        width: 64px;
+        border-right: 1px solid black;
+      }
+      .description {
+        width: 331px;
+        border-right: 1px solid black;
+      }
+      .location {
+        width: 265px;
+        border-right: 1px solid black;
+      }
+      .brigade {
+        width: 142px;
+        border-right: 1px solid black;
+      }
+      .date {
+        width: 200px;
+        border-right: 1px solid black;
+      }
+      .time {
+        width: 152px;
+      }
+    }
+  
+    .row {
+      display: flex;
+      height: 52px;
+      margin-bottom: 5px;
+  
+      .row-cell {
+        border-radius: 13px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .name {
+        width: 212px;
+      }
+      .id {
+        width: 58px;
+        margin-left: 6px;
+      }
+      .description {
+        width: 325px;
+        margin-left: 6px;
+      }
+      .location {
+        width: 259px;
+        margin-left: 6px;
+      }
+      .brigade {
+        width: 136px;
+        margin-left: 6px;
+      }
+      .date {
+        width: 194px;
+        margin-left: 6px;
+      }
+      .time {
+        width: 149px;
+        margin-left: 6px;
+      }
+    }
+  }
+  

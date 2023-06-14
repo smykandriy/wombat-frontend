@@ -1,0 +1,175 @@
+.authenticate {
+  width: 1280px;
+  height: 832px;
+  background: linear-gradient(180deg, #FFC077 0%, #FF6D69 100%);
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .logo {
+    position: absolute;
+    width: 328px;
+    height: 88px;
+    left: 0;
+    top: 31px;
+
+    background: #E7E4E4;
+    border-radius: 0 40px 40px 0;
+
+    .logo-text {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .form {
+    margin-top: 167px;
+    width: 831px;
+    height: 484px;
+
+    background: #282828;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 67px 67px 300px 67px;
+    display: flex;
+    flex-direction: column;
+
+
+    .form-title {
+      margin-top: 80px;
+      font-family: 'Jost';
+      width: 699px;
+      height: 136px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 52px;
+      line-height: 130%;
+      padding-left: 60px;
+
+      color: #E7E4E4;
+    }
+
+    .form-buttons {
+      padding: 78px 0 0 60px;
+
+      button {
+        font-family: '.SF Compact Rounded';
+        font-style: normal;
+        font-weight: 656;
+        font-size: 32px;
+        line-height: 38px;
+        cursor: pointer;
+      }
+
+      .registration {
+        color: #E7E4E4;
+        width: 235px;
+        height: 85px;
+        background: none;
+
+        border: 3px solid #E7E4E4;
+        border-radius: 26px;
+      }
+
+      .login {
+        margin-left: 51px;
+        width: 194px;
+        height: 85px;
+        color: #282828;
+        background: #E7E4E4;
+        border-radius: 28px;
+      }
+    }
+  }
+
+  .tool-box-image {
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    left: 831px;
+    top: 409px;
+  }
+
+  .reg-step {
+    margin-top: 167px;
+    width: 831px;
+    height: 531px;
+
+    background: #282828;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .input-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-top: 42px;
+
+      font-family: 'Jost';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 40px;
+
+      color: #7D7D7D;
+
+      label {
+        padding-left: 21px;
+      }
+
+      input {
+        padding-left: 21px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        
+        color: #7D7D7D;
+        width: 498px;
+        height: 85px;
+
+        background: #E7E4E4;
+        border-radius: 28px;
+      }
+    }
+
+    .buttons {
+      margin-top: 54px;
+
+      button {
+        width: 194px;
+        height: 85px;
+        font-family: '.SF Compact Rounded';
+        font-style: normal;
+        font-weight: 656;
+        font-size: 36px;
+        line-height: 43px;
+        cursor: pointer;
+      }
+
+      .back {
+        background: #282828;
+        border: 4px solid #E7E4E4;
+        border-radius: 28px;
+        color: #E7E4E4;
+      }
+      .next {
+        background: #FFFFFF;
+        border-radius: 28px;
+        color: #282828;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+@font-face {  font-family: '.SF Compact Rounded';
+  src: url('../../fonts/.SF Compact Rounded.ttf') format('truetype');}
+body {
+  font-family: '.SF Compact Rounded', sans-serif;}
+  
